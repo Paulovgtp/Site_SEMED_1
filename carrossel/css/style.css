@@ -1,0 +1,36 @@
+/*reset*/
+*{
+	margin: auto;
+	padding: 0;
+	list-style: none;
+	outline: 0;
+	font-family: 'Arial','Sans-Serif';
+	border-color: #00ABFD;
+}
+
+#content {
+	margin: auto;
+	width: 1050px;
+	height: 200px;
+}
+
+#carrossel {
+	float: left;
+	width: 630px;
+	overflow: hidden;
+	height: 150px;
+}
+
+#carrossel ul li {
+	width: 800px;
+	height: 150px;
+	float: left;
+	margin: auto;
+}
+
+#menu-carrossel {
+	float: left;
+	clear: both;
+	width: 100%;
+	text-align: center;
+}

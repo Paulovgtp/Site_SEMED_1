@@ -1,0 +1,345 @@
+body {
+    font-family: arial, tahoma, verdana;
+    font-size: 14px;
+    border: 0;
+    margin: auto;
+    padding: 0;
+    background-color: #FFFFFA;
+}
+
+/* SITE */
+
+    #site {
+        width: 1200px;
+        margin: auto;
+    }
+    a {
+        color: #000;
+        text-decoration: none;
+    } 
+____________________________________________________________________
+
+/* BARRA DE NAVEGAÇÃO */
+
+    #header {
+        width: 100%;
+        height: 94px;
+        text-align: center;
+        height: 120px;
+        float: left;
+        background-color: #f0f0f0;
+    }
+____________________________________________________________________
+
+/* HEADER */
+
+    header {
+        width: 100%;
+        height: 120px;
+        padding-top: 20px;
+        background-color: #f0f0f0; 
+    }
+    header .logo {
+        max-width: 100%;
+        width: auto;
+        height: 90px;
+        float: left;
+        padding: 26px 0 0 44px;
+    }
+    header .logo img {
+        width: 180px;
+        height: 73px;
+        text-indent: -8000px;
+        float: left;        
+    }
+    header a.ed {
+        font-family: Quicksand, Quicksand Light, arial, verdana, tahoma;
+        font-size: 15px;
+        width: 190px;
+        height: 19px;
+        float: right;
+        margin: 95px 55px 0 0;
+    }
+____________________________________________________________________
+
+/* BARRA DE LINKS */
+
+    #linkbar {
+        margin: auto;
+        background-color: #434343;
+        height: 30px;
+        font-family: verdana;
+        font-size: 10x;
+    }
+    #linkbar ul {
+        height: auto;
+        padding: 8px 0;
+        margin: 0;
+    }
+    #linkbar ul li {
+        display: inline;
+        padding: 0px;
+        margin: 0;
+    }
+    #linkbar ul li a {
+        color: #fff;
+        padding: 8px 8px 8px 8px;
+        text-decoration: none;
+    }
+____________________________________________________________________
+
+/* CENTER */
+
+    *{
+    	margin: 0;
+    	padding: 0;
+    	list-style: none;
+    	outline: 0;
+    	font-family: 'Arial','Sans-Serif';
+    }
+    #center {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* CARROUSEL */
+
+        #content {
+        	margin: 0;
+        	width: 100%;
+        	height: auto;
+        }
+        #carrossel {
+        	width: 100%;
+        	height: auto;
+        }
+        #carrossel ul li {
+        	width: 100%;
+        	height: 100%;
+        	margin: 0;
+        }
+        #carrossel ul li img {
+            width: 100%;
+            height: 100%;
+        }
+
+    /* TEXT'S */
+
+        #text {
+            width: 100%;
+        }
+        #text .text1 {
+            padding: 10px;
+            margin: auto;
+            width: 99.5%;
+        }
+
+    /* LINKS CENTER */
+
+        #links_center h2 {
+            padding-top: 20px;
+            padding-bottom: 5px;
+            padding-left: 2%;
+        }   
+        #links_center {
+            width: 100%;
+            float: left;
+        }   
+        #links_center img {
+            width: 80%;
+            height: auto;
+        }
+
+        /* ------   T   ----- */
+        #links_center .titulo1 {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 100%;
+            float: left;
+        }
+        #links_center .titulo2 {
+            text-align: center;
+            width: 100%;
+            float: left;
+        }
+        
+        /* ------   1   ----- */
+        #links_center .links1, .links2, .links3 {
+            width: 25%;
+            float: left;
+        }
+        #links_center .linkF1, .linkF2, .linkF3 {
+            width: 100%;
+            float: left;
+        }
+
+    /* CT PDF */
+
+        #center h3 {
+            padding: 10px;
+            width: 100%;
+        }
+        #CT_pdf {
+            font-size: 15px;
+            padding: 10px 10px 10px 10px;
+        }
+        #CT_pdf ul {
+            list-style: none;
+        }
+        #CT_pdf li{
+            padding-bottom: 5px; 
+            display: block;
+        }
+        #CT_pdf a span{
+            color: #d00;
+        }
+        #CT_pdf ul li:hover > a span{
+            color: #000;
+        }
+____________________________________________________________________
+
+/* FOOTER */
+
+    #footer {
+        width: 100%;
+        height: 200px;
+    }
+    #footer ._links-1 {
+        max-width: 100%;
+        width: 40%;
+        height: 100%;
+        float: left;
+        text-align: center;
+    }
+    #footer ._links-1 img {
+        display: block;
+        margin: auto 15%;
+        width: 70%;
+        height: 115px;
+        float: left;
+        text-indent: -10000px;
+    }
+    #footer ._links-2 {
+        width: 30%;
+        float: left;
+    }
+    #footer ._links-3 {        
+        width: 30%;
+        float: left;
+    }
+_______________________________________________________
+
+/* @MEDIA ALL AND */
+    
+
+    @media all and (max-width:500px) {
+        
+        /* ------   HEADER   ----- */
+
+        header a.ed {
+            font-family: Quicksand, Quicksand Light, arial, verdana, tahoma;
+            font-size: 15px;
+            width: 190px;
+            height: 19px;
+            float: right;
+            margin: 95px 55px 0 0;
+        }
+        header a {
+            text-align: center;
+            margin: 0px;
+        }
+    }
+    @media all and (max-width:600px) {
+        
+        /* ----  LINK'S CENTER  ---- */
+
+        #links_center .titulo2 {
+            width: 100%;
+        }
+        #links_center .links1, .links2, .links3 {
+            width: 100%;
+            float: left;
+        }
+        #links_center img {
+            width: 100%;
+            margin: auto;
+            float: left;
+        }
+        #links_center .linkF2, .linkF3 {
+            text-align: center;
+        }
+        #links_center .linkF1, .linkF2, .linkF3 {
+            padding: 5px;
+        }
+        
+        /* ------   FOOTER   ----- */
+
+        #footer ._links-1 {
+            max-width: 100%;
+            width: 100%;
+            height: 100%;
+            float: left;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+        #footer ._links-2, ._links-3 {
+            padding-left: 10%;
+            width: 50%;
+            float: left;
+        }
+    }
+    @media all and (max-width:850px) {
+        
+        /* ------   HEADER   ----- */
+
+        header {
+            width: 100%;
+            height: 100%;
+        }
+        header .logo li {
+            display: block;
+            margin: 0px;
+        }
+    }
+    @media all and (max-width:1024px) {
+        
+        /* ----  LINK'S BAR  ---- */
+
+        #linkbar ul li {
+            display: inline-block;
+            margin: 0;
+        }
+    }
+    @media all and (max-width:1198px) {
+        
+        /* -------   SITE   ----- */
+
+        #site {
+            width: 100%;
+            margin: auto;
+        }
+        
+        /* ------   HEADER   ----- */
+
+        #header a.ed {
+            float: right;
+        }
+        
+        /* ------   FOOTER   ----- */
+
+        #footer ._links-1 img {
+            width: 70%;
+            height: 70%;
+        }
+    }
+_______________________________________________________
+
+
+
+/*PEDACOS DE CODICO*/
+/*
+    ___________________________________________
+
+        
+    ___________________________________________
+*/
