@@ -16,7 +16,7 @@ body {
     a {
         color: #000;
         text-decoration: none;
-    } 
+    }
 ____________________________________________________________________
 
 /* BARRA DE NAVEGAÇÃO */
@@ -37,7 +37,7 @@ ____________________________________________________________________
         width: 100%;
         height: 120px;
         padding-top: 20px;
-        background-color: #f0f0f0; 
+        background-color: #f0f0f0;
     }
     header .logo {
         max-width: 100%;
@@ -50,9 +50,9 @@ ____________________________________________________________________
         width: 180px;
         height: 73px;
         text-indent: -8000px;
-        float: left;        
+        float: left;
     }
-    header a.ed {
+    header .ed {
         font-family: Quicksand, Quicksand Light, arial, verdana, tahoma;
         font-size: 15px;
         width: 190px;
@@ -72,6 +72,7 @@ ____________________________________________________________________
         font-size: 10x;
     }
     #linkbar ul {
+      text-align: center;
         height: auto;
         padding: 8px 0;
         margin: 0;
@@ -136,15 +137,15 @@ ____________________________________________________________________
 
     /* LINKS CENTER */
 
+        #links_center {
+            width: 100%;
+            float: left;
+        }
         #links_center h2 {
             padding-top: 20px;
             padding-bottom: 5px;
             padding-left: 2%;
-        }   
-        #links_center {
-            width: 100%;
-            float: left;
-        }   
+        }
         #links_center img {
             width: 80%;
             height: auto;
@@ -162,7 +163,7 @@ ____________________________________________________________________
             width: 100%;
             float: left;
         }
-        
+
         /* ------   1   ----- */
         #links_center .links1, .links2, .links3 {
             width: 25%;
@@ -187,7 +188,7 @@ ____________________________________________________________________
             list-style: none;
         }
         #CT_pdf li{
-            padding-bottom: 5px; 
+            padding-bottom: 5px;
             display: block;
         }
         #CT_pdf a span{
@@ -223,36 +224,23 @@ ____________________________________________________________________
         width: 30%;
         float: left;
     }
-    #footer ._links-3 {        
+    #footer ._links-3 {
         width: 30%;
         float: left;
     }
 _______________________________________________________
 
 /* @MEDIA ALL AND */
-    
 
-    @media all and (max-width:500px) {
-        
+    @media all and (max-width:485px) {
         /* ------   HEADER   ----- */
-
         header a.ed {
-            font-family: Quicksand, Quicksand Light, arial, verdana, tahoma;
-            font-size: 15px;
-            width: 190px;
-            height: 19px;
-            float: right;
-            margin: 95px 55px 0 0;
-        }
-        header a {
-            text-align: center;
-            margin: 0px;
+            margin: 10px 0 0 0;
         }
     }
     @media all and (max-width:600px) {
-        
-        /* ----  LINK'S CENTER  ---- */
 
+        /* ----  LINK'S CENTER  ---- */
         #links_center .titulo2 {
             width: 100%;
         }
@@ -271,9 +259,8 @@ _______________________________________________________
         #links_center .linkF1, .linkF2, .linkF3 {
             padding: 5px;
         }
-        
-        /* ------   FOOTER   ----- */
 
+        /* ------   FOOTER   ----- */
         #footer ._links-1 {
             max-width: 100%;
             width: 100%;
@@ -289,9 +276,8 @@ _______________________________________________________
         }
     }
     @media all and (max-width:850px) {
-        
-        /* ------   HEADER   ----- */
 
+        /* ------   HEADER   ----- */
         header {
             width: 100%;
             height: 100%;
@@ -302,31 +288,25 @@ _______________________________________________________
         }
     }
     @media all and (max-width:1024px) {
-        
-        /* ----  LINK'S BAR  ---- */
 
+        /* ----  LINK'S BAR  ---- */
         #linkbar ul li {
             display: inline-block;
             margin: 0;
         }
     }
     @media all and (max-width:1198px) {
-        
-        /* -------   SITE   ----- */
 
+        /* -------   SITE   ----- */
         #site {
             width: 100%;
             margin: auto;
         }
-        
         /* ------   HEADER   ----- */
-
         #header a.ed {
             float: right;
         }
-        
         /* ------   FOOTER   ----- */
-
         #footer ._links-1 img {
             width: 70%;
             height: 70%;
@@ -340,6 +320,6 @@ _______________________________________________________
 /*
     ___________________________________________
 
-        
+
     ___________________________________________
 */
